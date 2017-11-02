@@ -1,7 +1,7 @@
 # note to self - created python virtual env "twitter-streaming" to handle package
 
  # need  to install tweepy,
- 
+
 # pass in hidden api keys
 import config
 
@@ -38,5 +38,5 @@ if __name__ == '__main__':
     auth.set_access_token(access_token, access_token_secret)
     stream = Stream(auth, l)
 
-    #This line filter Twitter Streams to capture data by the keywords: 'python', 'javascript', 'ruby'
+    #This line filter Twitter Streams to capture data by the keywords: 'HTGAWM', 'TGIT' an '@shondarhimes'
     stream.filter(track=['HTGAWM', 'TGIT', '@shondarhimes'])
