@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-.ipynb_checkpoints
 config.py
-=======
-config.py
+config.pyc
 __pycache__
 .ipynb_checkpoints
->>>>>>> master-holder
