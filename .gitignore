@@ -2,3 +2,10 @@ config.py
 config.pyc
 __pycache__
 .ipynb_checkpoints
+pyvenv.cfg
+bin/
+include/
+lib/
+twitter/personal
+shopify/data
+shopify/generated

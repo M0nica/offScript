@@ -7,7 +7,7 @@ twitter = Twython(config.api_key, config.api_secret,
 
 # return tweets containing ##womenofreact2020
 response = twitter.search(
-    q='"#womenofreact2020"  -filter:retweets', result_type="recent", count=200)
+    q='"#womenofreact2020"  -filter:retweets', result_type="recent", count=500)
 
 # for each tweet returned from search of #womenofreact2020
 for tweet in response['statuses']:
